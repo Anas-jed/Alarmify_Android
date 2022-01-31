@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
         }*/
         Log.d(tag,"Current Time: "+ calendar.getTime());
 
-        calendar.set(Calendar.HOUR_OF_DAY, 12);
-        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.HOUR_OF_DAY, 1);
+        calendar.set(Calendar.MINUTE, 12);
         calendar.set(Calendar.SECOND,0);
         calendar.set(Calendar.MILLISECOND,0);
         //calendar.set(Calendar.SECOND, );
